@@ -32,7 +32,7 @@ def read_input(Enter_your_input_file): # The "read_input" function is intended t
 # 2 for Paper
 # 3 for Scissors  
       #AND
-# 0 if you lost 
+# 0 if you lose
 # 3 if the round was a draw
 # 6 if you won 
 
