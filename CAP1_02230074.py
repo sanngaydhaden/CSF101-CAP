@@ -38,7 +38,7 @@ def read_input(Enter_your_input_file): # defining function "read_input"
 
 # Calculation of score for each round
 def calc_score(round_played):
-        score = 0
+        score = 0 # initializing score to 0 
         for opponent, outcome in round_played: 
                 if outcome == 'X': # we have to lose
                         if opponent == 'A': # A for rock
